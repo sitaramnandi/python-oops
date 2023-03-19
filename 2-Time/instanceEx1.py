@@ -14,8 +14,5 @@ e1.sal=float(input("Enter The Salary:"))
 print("First Employee detalis")
 print(e1.eno,e1.Ename,e1.sal,Employee.cname)
 # print(e1.__dict__)
-print("---------------------------------------------------------")
-for k,v ,R in e1.__dict__.items():
-    print(k,"-->",v,R)
 
 
